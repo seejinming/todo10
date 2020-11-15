@@ -10,4 +10,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.tradingapp"
-    
+        minSdk 21
+        targetSdk 32
+        versionCode 1
+        versionN
