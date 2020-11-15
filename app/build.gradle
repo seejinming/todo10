@@ -5,4 +5,9 @@ plugins {
     id 'kotlin-kapt'
     id 'dagger.hilt.android.plugin'
 }
-android
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "com.example.tradingapp"
+    
