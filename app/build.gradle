@@ -33,4 +33,13 @@ android {
     }
 
     kapt {
-        correctErrorTypes = tr
+        correctErrorTypes = true
+    }
+    lintOptions {
+        checkReleaseBuilds false
+    }
+}
+
+dependencies {
+
+    implementatio
