@@ -77,4 +77,8 @@ dependencies {
 
 
     implementation "androidx.lifecycle:lifecycle-viewmodel:2.5.1"
-    impl
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1"
+
+    /// retrofit
+
+implementation "com
