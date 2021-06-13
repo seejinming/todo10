@@ -20,4 +20,7 @@
             android:name=".ChartActivity"
             android:exported="false" />
         <activity
-            androi
+            android:name=".uii.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+           
