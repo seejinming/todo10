@@ -9,4 +9,6 @@ interface ApiService {
 
 
     @GET("ticket/count")
-    susp
+    suspend fun getCount(
+        @Query("date")request: String,
+        @Query ("t
