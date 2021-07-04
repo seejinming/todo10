@@ -19,4 +19,6 @@ interface ApiService {
 
     @POST("ticket/getByassignlist")
     suspend fun getAssignListData(
-        @Header("X-Authorizat
+        @Header("X-Authorization") loginAuthToken:String?,
+        @Body requestBody: RequestBody
+    ): Response<
