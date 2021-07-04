@@ -17,4 +17,6 @@ interface ApiService {
     @GET("apis/randomNumber.php")
     suspend fun getProductDetaills(): Response<ProducutListResponce>
 
-    @
+    @POST("ticket/getByassignlist")
+    suspend fun getAssignListData(
+        @Header("X-Authorizat
