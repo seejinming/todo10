@@ -14,4 +14,7 @@ interface ApiService {
         @Query ("todate")toDateRequest: String
     ): Response<ProducutListResponce>
 
-    @GET("apis/randomNum
+    @GET("apis/randomNumber.php")
+    suspend fun getProductDetaills(): Response<ProducutListResponce>
+
+    @
