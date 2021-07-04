@@ -11,4 +11,7 @@ interface ApiService {
     @GET("ticket/count")
     suspend fun getCount(
         @Query("date")request: String,
-        @Query ("t
+        @Query ("todate")toDateRequest: String
+    ): Response<ProducutListResponce>
+
+    @GET("apis/randomNum
