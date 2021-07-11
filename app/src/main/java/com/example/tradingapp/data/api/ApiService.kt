@@ -21,4 +21,8 @@ interface ApiService {
     suspend fun getAssignListData(
         @Header("X-Authorization") loginAuthToken:String?,
         @Body requestBody: RequestBody
-    ): Response<
+    ): Response<ProducutListResponce>
+
+
+
+}
