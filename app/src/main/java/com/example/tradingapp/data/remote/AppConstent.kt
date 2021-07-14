@@ -2,4 +2,5 @@ package com.example.tradingapp.data.remote
 
 object AppConstent {
 
-    const va
+    const val baseUrl="https://willliamstanley.000webhostapp.com/"
+}
