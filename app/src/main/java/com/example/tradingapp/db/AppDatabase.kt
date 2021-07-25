@@ -6,4 +6,8 @@ import com.example.tradingapp.db.UserDetailsDao
 import com.example.tradingapp.model.UserDetails
 
 @Database(entities = [UserDetails::class], version = 1)
-abstract class AppDatabase:R
+abstract class AppDatabase:RoomDatabase() {
+
+    abstract fun userDetailsDao(): UserDetailsDao
+
+}
