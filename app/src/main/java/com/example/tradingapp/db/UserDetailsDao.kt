@@ -1,3 +1,7 @@
 package com.example.tradingapp.db
 
-impo
+import androidx.room.*
+import com.example.tradingapp.model.UserDetails
+
+@Dao
+interface U
