@@ -4,4 +4,9 @@ import androidx.room.*
 import com.example.tradingapp.model.UserDetails
 
 @Dao
-interface U
+interface UserDetailsDao {
+
+    @Insert
+    fun insert(user: UserDetails)
+
+    
