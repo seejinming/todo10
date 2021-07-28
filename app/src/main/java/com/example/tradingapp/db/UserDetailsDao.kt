@@ -9,4 +9,8 @@ interface UserDetailsDao {
     @Insert
     fun insert(user: UserDetails)
 
-    
+    @Query("select * from user_details")
+    fun getAllUsers():List<UserDetails>
+
+    @Update
+    fun
