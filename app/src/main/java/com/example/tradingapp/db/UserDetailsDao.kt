@@ -13,4 +13,8 @@ interface UserDetailsDao {
     fun getAllUsers():List<UserDetails>
 
     @Update
-    fun
+    fun update(user: UserDetails)
+
+    @Delete
+    fun delete(user: UserDetails)
+}
