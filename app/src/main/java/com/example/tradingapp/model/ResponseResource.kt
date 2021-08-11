@@ -14,4 +14,7 @@ data class ResponseResource<out T>(val status: Status, val data: T?, val message
     companion object {
 
         fun <T> success(data: T): ResponseResource<T> {
-      
+            return ResponseResource(Status.SUCCESS, data, "Success")
+        }
+
+       
