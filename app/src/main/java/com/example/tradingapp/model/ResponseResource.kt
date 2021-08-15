@@ -21,4 +21,5 @@ data class ResponseResource<out T>(val status: Status, val data: T?, val message
             return ResponseResource(Status.NOINTERNET, null,message)
         }
 
-        fun <T> error(message: String, dat
+        fun <T> error(message: String, data: T? = null): ResponseResource<T> {
+            return ResponseResource(Status.ERROR, data, 
