@@ -22,4 +22,8 @@ data class ResponseResource<out T>(val status: Status, val data: T?, val message
         }
 
         fun <T> error(message: String, data: T? = null): ResponseResource<T> {
-            return ResponseResource(Status.ERROR, data, 
+            return ResponseResource(Status.ERROR, data, message)
+        }
+
+        fun <T> loading(data: T?): ResponseResource<T> {
+            
