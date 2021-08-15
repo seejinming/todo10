@@ -18,4 +18,7 @@ data class ResponseResource<out T>(val status: Status, val data: T?, val message
         }
 
         fun <T> nointernet(message: String ): ResponseResource<T> {
-            return ResponseRes
+            return ResponseResource(Status.NOINTERNET, null,message)
+        }
+
+        fun <T> error(message: String, dat
