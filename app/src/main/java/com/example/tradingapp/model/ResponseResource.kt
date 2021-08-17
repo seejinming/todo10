@@ -26,4 +26,7 @@ data class ResponseResource<out T>(val status: Status, val data: T?, val message
         }
 
         fun <T> loading(data: T?): ResponseResource<T> {
-            
+            return ResponseResource(Status.LOADING, data, null)
+        }
+
+        fun <T> faile
