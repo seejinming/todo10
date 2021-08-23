@@ -30,4 +30,7 @@ data class ResponseResource<out T>(val status: Status, val data: T?, val message
         }
 
         fun <T> failed(message: String, data: T? = null): ResponseResource<T> {
-            return ResponseResourc
+            return ResponseResource(Status.FAILURE, data, message)
+        }
+
+        fun <T> dataInsert(message: String ): R
