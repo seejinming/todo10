@@ -8,4 +8,6 @@ import com.example.tradingapp.db.AppDatabase
 import com.example.tradingapp.db.UserDetailsDao
 import dagger.Module
 import dagger.Provides
-import dagger.hilt.
+import dagger.hilt.InstallIn
+import dagger.hilt.android.qualifiers.ApplicationContext
+import dagger.h
