@@ -16,4 +16,11 @@ import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
 
 
-@InstallIn(SingletonComponent::cla
+@InstallIn(SingletonComponent::class)
+@Module
+class AppModule {
+
+
+
+    @Provides
+    fun provideUserDao(appDatabase: App
