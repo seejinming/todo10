@@ -28,4 +28,6 @@ class AppModule {
     }
 
 
-    @Pr
+    @Provides
+    @Singleton
+    fun provideAppDatabase(@ApplicationContext appContext:Context): AppDatab
