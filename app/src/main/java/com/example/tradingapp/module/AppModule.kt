@@ -23,4 +23,9 @@ class AppModule {
 
 
     @Provides
-    fun provideUserDao(appDatabase: App
+    fun provideUserDao(appDatabase: AppDatabase): UserDetailsDao {
+        return appDatabase.userDetailsDao()
+    }
+
+
+    @Pr
