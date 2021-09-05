@@ -30,4 +30,7 @@ class AppModule {
 
     @Provides
     @Singleton
-    fun provideAppDatabase(@ApplicationContext appContext:Context): AppDatab
+    fun provideAppDatabase(@ApplicationContext appContext:Context): AppDatabase {
+        return Room.databaseBuilder(
+            appContext,
+            AppData
