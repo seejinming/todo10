@@ -33,4 +33,10 @@ class AppModule {
     fun provideAppDatabase(@ApplicationContext appContext:Context): AppDatabase {
         return Room.databaseBuilder(
             appContext,
-            AppData
+            AppDatabase::class.java,
+            "EFarmerDb"
+        ).build()
+    }
+
+    @Singleton
+    @
