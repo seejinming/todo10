@@ -39,4 +39,6 @@ class AppModule {
     }
 
     @Singleton
-    @
+    @Provides
+    fun providerApiService():ApiService{
+        return Retrofit.Builder().baseUrl(base
