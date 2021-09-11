@@ -43,4 +43,8 @@ class AppModule {
     fun providerApiService():ApiService{
         return Retrofit.Builder().baseUrl(baseUrl)
             .addConverterFactory(GsonConverterFactory.create())
-            // we need to add con
+            // we need to add converter factory to
+            // convert JSON object to Java object
+            .build()
+
+   
