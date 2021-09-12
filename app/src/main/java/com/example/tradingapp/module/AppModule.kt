@@ -47,4 +47,6 @@ class AppModule {
             // convert JSON object to Java object
             .build()
 
-   
+            .create(ApiService::class.java)
+    }
+}
