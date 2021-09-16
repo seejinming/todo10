@@ -7,4 +7,8 @@ import com.example.tradingapp.R
 import com.example.tradingapp.model.ResponseResource
 import com.example.tradingapp.model.UserDetails
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.android.synthetic.main.activ
+import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+
+
+@ExperimentalCoroutinesApi
