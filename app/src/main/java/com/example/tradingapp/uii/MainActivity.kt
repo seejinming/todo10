@@ -12,3 +12,9 @@ import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 
 @ExperimentalCoroutinesApi
+@AndroidEntryPoint
+class MainActivity : AppCompatActivity() {
+
+
+
+    val mainViewMode
