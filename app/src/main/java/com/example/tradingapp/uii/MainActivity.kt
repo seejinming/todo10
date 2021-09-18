@@ -17,4 +17,5 @@ class MainActivity : AppCompatActivity() {
 
 
 
-    val mainViewMode
+    val mainViewModel by viewModels<MainViewModel>()
+    override fun onCreate(savedInstanceSta
