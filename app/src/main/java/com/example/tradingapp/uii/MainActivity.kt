@@ -18,4 +18,6 @@ class MainActivity : AppCompatActivity() {
 
 
     val mainViewModel by viewModels<MainViewModel>()
-    override fun onCreate(savedInstanceSta
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity
