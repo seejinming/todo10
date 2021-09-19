@@ -29,4 +29,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun
+    private fun initObservers() {
+        mainViewModel.getDetails.observe(this){
+
+            viewLi
