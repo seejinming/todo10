@@ -32,4 +32,8 @@ class MainActivity : AppCompatActivity() {
     private fun initObservers() {
         mainViewModel.getDetails.observe(this){
 
-            viewLi
+            viewListData.text = "$it"
+        }
+
+        mainViewModel.getProductDetails.observe(this){
+    
