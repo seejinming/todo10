@@ -36,4 +36,9 @@ class MainActivity : AppCompatActivity() {
         }
 
         mainViewModel.getProductDetails.observe(this){
-    
+            when(it.status){
+
+
+                ResponseResource.Status.LOADING->{
+
+           
