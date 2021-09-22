@@ -45,4 +45,6 @@ class MainActivity : AppCompatActivity() {
 
                 viewListData.text = ""
 
-         
+                viewListData.text = "${it.data?.body()?.response}"
+
+               
