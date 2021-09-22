@@ -41,4 +41,8 @@ class MainActivity : AppCompatActivity() {
 
                 ResponseResource.Status.LOADING->{
 
-           
+                }ResponseResource.Status.SUCCESS->{
+
+                viewListData.text = ""
+
+         
