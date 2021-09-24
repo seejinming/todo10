@@ -47,4 +47,11 @@ class MainActivity : AppCompatActivity() {
 
                 viewListData.text = "${it.data?.body()?.response}"
 
-               
+                }ResponseResource.Status.ERROR->{
+
+                }
+            }
+        }
+    }
+
+ 
