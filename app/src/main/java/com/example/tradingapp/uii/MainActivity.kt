@@ -54,4 +54,8 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
- 
+    private fun initLisiners() {
+        addData.setOnClickListener {
+
+            mainViewModel.insert(
+      
