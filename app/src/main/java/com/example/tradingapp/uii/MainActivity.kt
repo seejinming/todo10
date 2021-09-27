@@ -58,4 +58,6 @@ class MainActivity : AppCompatActivity() {
         addData.setOnClickListener {
 
             mainViewModel.insert(
-      
+                UserDetails(
+                    emailId = "wwg@gmail.com",
+   
