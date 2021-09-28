@@ -60,4 +60,6 @@ class MainActivity : AppCompatActivity() {
             mainViewModel.insert(
                 UserDetails(
                     emailId = "wwg@gmail.com",
-   
+                    password = "sjdjkbs",
+                    loginType=0
+ 
