@@ -62,4 +62,9 @@ class MainActivity : AppCompatActivity() {
                     emailId = "wwg@gmail.com",
                     password = "sjdjkbs",
                     loginType=0
- 
+                )
+            )
+        }
+
+        viewData.setOnClickListener {
+
