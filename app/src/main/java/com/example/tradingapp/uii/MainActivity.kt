@@ -69,4 +69,10 @@ class MainActivity : AppCompatActivity() {
         viewData.setOnClickListener {
 
 //            mainViewModel.getDetails()
-            mainViewModel.getProductDet
+            mainViewModel.getProductDetails()
+
+        }
+
+
+    }
+}
