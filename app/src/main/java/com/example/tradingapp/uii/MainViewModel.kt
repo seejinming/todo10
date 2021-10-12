@@ -9,4 +9,8 @@ import com.example.tradingapp.model.ResponseResource
 import com.example.tradingapp.model.UserDetails
 import com.example.tradingapp.repository.MainRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kot
+import kotlinx.coroutines.*
+import retrofit2.Response
+import javax.inject.Inject
+
+@Experi
