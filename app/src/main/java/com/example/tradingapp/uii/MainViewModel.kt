@@ -13,4 +13,6 @@ import kotlinx.coroutines.*
 import retrofit2.Response
 import javax.inject.Inject
 
-@Experi
+@ExperimentalCoroutinesApi
+@HiltViewModel
+class MainViewModel @Inject constructor(va
