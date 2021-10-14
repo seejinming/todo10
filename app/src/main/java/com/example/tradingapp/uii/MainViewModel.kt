@@ -17,4 +17,6 @@ import javax.inject.Inject
 @HiltViewModel
 class MainViewModel @Inject constructor(val repository: MainRepository):ViewModel(){
 
-    fun  insert(userDetails: Us
+    fun  insert(userDetails: UserDetails){
+        CoroutineScope(Dispatchers.Default).launch {
+            re
