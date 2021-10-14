@@ -15,4 +15,6 @@ import javax.inject.Inject
 
 @ExperimentalCoroutinesApi
 @HiltViewModel
-class MainViewModel @Inject constructor(va
+class MainViewModel @Inject constructor(val repository: MainRepository):ViewModel(){
+
+    fun  insert(userDetails: Us
