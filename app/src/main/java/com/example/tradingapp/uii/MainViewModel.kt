@@ -19,4 +19,9 @@ class MainViewModel @Inject constructor(val repository: MainRepository):ViewMode
 
     fun  insert(userDetails: UserDetails){
         CoroutineScope(Dispatchers.Default).launch {
-            re
+            repository.insert(userDetails)
+        }
+
+    }
+
+    private val _getDetails = Muta
