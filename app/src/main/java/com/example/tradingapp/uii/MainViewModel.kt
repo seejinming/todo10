@@ -24,4 +24,5 @@ class MainViewModel @Inject constructor(val repository: MainRepository):ViewMode
 
     }
 
-    private val _getDetails = Muta
+    private val _getDetails = MutableLiveData<List<UserDetails>>()
+    val getDetails:LiveData<List<UserDetails>> ge
