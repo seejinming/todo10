@@ -29,4 +29,9 @@ class MainViewModel @Inject constructor(val repository: MainRepository):ViewMode
 
     fun getDetails(){
         viewModelScope.launch {
-            
+            _getDetails.value = repository.getDetails()
+        }
+    }
+
+
+    private val _g
