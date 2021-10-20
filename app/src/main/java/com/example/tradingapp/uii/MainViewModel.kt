@@ -36,4 +36,10 @@ class MainViewModel @Inject constructor(val repository: MainRepository):ViewMode
 
     private val _getProductDetails = MutableLiveData<ResponseResource<Response<ProducutListResponce>>>()
 
-    val getProductDetails: LiveData<ResponseResource<Response<ProducutListRespo
+    val getProductDetails: LiveData<ResponseResource<Response<ProducutListResponce>>>
+        get() = _getProductDetails
+
+    fun getProductDetails(){
+
+
+        view
