@@ -42,4 +42,9 @@ class MainViewModel @Inject constructor(val repository: MainRepository):ViewMode
     fun getProductDetails(){
 
 
-        view
+        viewModelScope.launch {
+
+
+
+            val data = viewModelScope.async {
+   
