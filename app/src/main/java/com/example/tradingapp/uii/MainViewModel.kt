@@ -47,4 +47,7 @@ class MainViewModel @Inject constructor(val repository: MainRepository):ViewMode
 
 
             val data = viewModelScope.async {
-   
+                repository.getDetailsAPi()
+            }
+
+            val myData = data.awai
