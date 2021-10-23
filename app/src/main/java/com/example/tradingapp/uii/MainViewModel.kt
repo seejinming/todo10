@@ -50,4 +50,8 @@ class MainViewModel @Inject constructor(val repository: MainRepository):ViewMode
                 repository.getDetailsAPi()
             }
 
-            val myData = data.awai
+            val myData = data.await()
+
+            if (myData.isSuccessful) {
+
+                _getPr
