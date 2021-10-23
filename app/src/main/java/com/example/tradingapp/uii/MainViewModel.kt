@@ -54,4 +54,7 @@ class MainViewModel @Inject constructor(val repository: MainRepository):ViewMode
 
             if (myData.isSuccessful) {
 
-                _getPr
+                _getProductDetails.value = ResponseResource.success(myData)
+            } else {
+
+   
