@@ -57,4 +57,5 @@ class MainViewModel @Inject constructor(val repository: MainRepository):ViewMode
                 _getProductDetails.value = ResponseResource.success(myData)
             } else {
 
-   
+                _getProductDetails.value = ResponseResource.error("Something went wrong")
+         
