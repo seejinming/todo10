@@ -6,4 +6,6 @@ import com.example.tradingapp.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class ChartActivity : AppCompa
+class ChartActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCrea
