@@ -9,4 +9,6 @@ import dagger.hilt.android.AndroidEntryPoint
 class ChartActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_
+        setContentView(R.layout.activity_chart)
+    }
+}
