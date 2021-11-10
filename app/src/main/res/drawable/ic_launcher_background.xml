@@ -20,4 +20,7 @@
     <path
         android:fillColor="#00000000"
         android:pathData="M29,0L29,108"
-        andr
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        andro
