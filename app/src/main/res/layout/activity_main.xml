@@ -11,4 +11,8 @@
     <Button
         android:id="@+id/addData"
         android:layout_width="match_parent"
-        android
+        android:text="add"
+        android:layout_height="wrap_content"/>
+
+    <Button
+    
