@@ -21,4 +21,6 @@
         android:layout_height="wrap_content"/>
 
     <TextView
-        and
+        android:id="@+id/viewListData"
+        android:layout_width="wrap_content"
+        a
