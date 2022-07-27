@@ -17,4 +17,8 @@
     <Button
         android:id="@+id/viewData"
         android:text="view"
-        android:layout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        and
