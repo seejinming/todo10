@@ -9,3 +9,9 @@
         <include .../>
         <exclude .../>
         -->
+    </cloud-backup>
+    <!--
+    <device-transfer>
+        <include .../>
+        <exclude .../>
+   
